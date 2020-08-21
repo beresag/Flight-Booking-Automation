@@ -2,48 +2,35 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-17T01:25:48 CDT" name="Default suite" finished-at="2020-08-17T01:27:26 CDT" duration-ms="97481">
+  <suite started-at="2020-08-21T15:59:03 CDT" name="Default suite" finished-at="2020-08-21T16:00:50 CDT" duration-ms="106768">
     <groups>
     </groups>
-    <test started-at="2020-08-17T01:25:48 CDT" name="Default test" finished-at="2020-08-17T01:27:26 CDT" duration-ms="97481">
+    <test started-at="2020-08-21T15:59:03 CDT" name="Default test" finished-at="2020-08-21T16:00:50 CDT" duration-ms="106768">
       <class name="Bootcamp.Expedia.FlightBooking">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Bootcamp.Expedia.FlightBooking@37918c79]" started-at="2020-08-17T01:25:48 CDT" name="beforeTest" finished-at="2020-08-17T01:25:53 CDT" duration-ms="4308" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Bootcamp.Expedia.FlightBooking@37918c79]" started-at="2020-08-21T15:59:03 CDT" name="beforeTest" finished-at="2020-08-21T15:59:07 CDT" duration-ms="4374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:Bootcamp.Expedia.FlightBooking@37918c79]" started-at="2020-08-17T01:25:53 CDT" name="f" finished-at="2020-08-17T01:27:26 CDT" duration-ms="93127" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method signature="f()[pri:0, instance:Bootcamp.Expedia.FlightBooking@37918c79]" started-at="2020-08-21T15:59:07 CDT" name="f" finished-at="2020-08-21T16:00:50 CDT" duration-ms="102324" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=84.0.4147.125)
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (00b59ed7b0914cf31084265907f40fa3)] -> xpath: //*[@data-test-id='select-button-1']] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1449QHF', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\barry\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 80a7f01e2a55d593882e7adbffa8096f]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\barry\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 00b59ed7b0914cf31084265907f40fa3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=84.0.4147.125)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (00b59ed7b0914cf31084265907f40fa3)] -> xpath: //*[@data-test-id='select-button-1']] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1449QHF', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\barry\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 80a7f01e2a55d593882e7adbffa8096f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at Bootcamp.Expedia.FlightBooking.f(FlightBooking.java:100)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\barry\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 00b59ed7b0914cf31084265907f40fa3
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Bootcamp.Expedia.FlightBooking.f(FlightBooking.java:91)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -74,11 +61,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Bootcamp.Expedia.FlightBooking@37918c79]" started-at="2020-08-17T01:27:26 CDT" name="afterTest" finished-at="2020-08-17T01:27:26 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Bootcamp.Expedia.FlightBooking@37918c79]" started-at="2020-08-21T16:00:50 CDT" name="afterTest" finished-at="2020-08-21T16:00:50 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
